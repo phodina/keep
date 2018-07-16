@@ -1,7 +1,16 @@
 [package]
-name = "backup"
+name = "keep"
 version = "0.1.0"
 authors = ["Petr Hodina <hodinapetr46@gmail.com>"]
+description = "Preserve file during content regeneration using VCS instead of guard clauses inside the document"
+readme = "README.md"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/phodina/keep"
+homepage = "https://github.com/phodina/keep"
+
+[dev-dependencies]
+tempdir = "0.3.6"
+fs_extra = "1.1.0"
 
 [dependencies]
 git2 = "0.7.1"

@@ -1,0 +1,9 @@
+# keep [WIP]
+Preserve file during regenerating using VCS such as git instead of guard clauses inside the document such as this:
+```
+ ... some text ...
+ ## GUARD START ##
+ ... do NOT modify ...
+ ## GUARD STOP ##
+ ... some text ...
+```
